@@ -6,5 +6,28 @@
         <module name="BooleanExpressionComplexity">
             <property name="max" value="7"/>
         </module>
+        <module name="CyclomaticComplexity">
+            <property name="max" value="15"/>
+        </module>
+        <module name="MethodLength"/>
+        <module name="EmptyCatchBlock">
+            <property name="commentFormat" value="Causa:"/>
+            <property name="exceptionVariableName" value="empty"/>
+        </module>
+        <module name="AvoidStarImport"/>
+        <module name="IllegalImport"/>
+        <module name="NeedBraces">
+            <property name="allowSingleLineStatement" value="true"/>
+        </module>
+    </module>
+    <module name="FileLength"/>
+    <module name="LineLength"/>
+    <module name="FileTabCharacter">
+        <property name="eachLine" value="true"/>
+    </module>
+    <module name="Header">
+        <property name="header"
+                  value="////////////////////////////////////////////////////////////////////\n// [Simone] [Meneghin] [1174926]\n////////////////////////////////////////////////////////////////////"/>
+        <property name="fileExtensions" value="java"/>
     </module>
 </module>
