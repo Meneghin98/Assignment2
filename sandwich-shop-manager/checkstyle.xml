@@ -19,9 +19,9 @@
         <module name="NeedBraces">
             <property name="allowSingleLineStatement" value="true"/>
         </module>
+        <module name="LineLength"/>
     </module>
     <module name="FileLength"/>
-    <module name="LineLength"/>
     <module name="FileTabCharacter">
         <property name="eachLine" value="true"/>
     </module>
