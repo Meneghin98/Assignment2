@@ -16,4 +16,12 @@ public class MenuItem {
         name=n;
         price=p;
     }
+    
+    public double getPrice(){
+        return price;
+    }
+    
+    public ItemType getType() {
+        return type;
+    }
 }
