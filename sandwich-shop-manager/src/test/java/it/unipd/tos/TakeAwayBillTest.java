@@ -101,7 +101,7 @@ public class TakeAwayBillTest
     @org.junit.Test
     public void TestListaVuota() throws TakeAwayBillException {
         List<MenuItem> ordini = new ArrayList<>();
-        takeAwayBill.getOrderPrice(ordini);
+        assertEquals(0, takeAwayBill.getOrderPrice(ordini));
     }
     
 
