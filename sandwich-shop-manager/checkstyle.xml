@@ -21,7 +21,9 @@
         </module>
         <module name="LineLength"/>
     </module>
-    <module name="FileLength"/>
+    <module name="FileLength">
+        <property name="max" value="120"/>
+    </module>
     <module name="FileTabCharacter">
         <property name="eachLine" value="true"/>
     </module>
